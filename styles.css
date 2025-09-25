@@ -1,17 +1,55 @@
-body {
-    background-color: lightblue;
-    text-align: center;
-    font-family: Arial;
+/* MENÚ DE NAVEGACIÓN */
+nav {
+    background: #2c3e50;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
-h1 {
-    color: navy;
-    font-size: 40px;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
-/* ESTILOS DEL BLOG */
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+    transition: color 0.3s;
+}
+
+/* SECCIONES */
+section {
+    padding: 100px 20px 50px;
+    min-height: 100vh;
+}
+
+#inicio {
+    background: #ecf0f1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BLOG */
 #blog {
     background: #f8f9fa;
-    padding: 4rem 2rem;
 }
 
 .entradas-blog {
@@ -42,6 +80,8 @@ h1 {
     color: #3498db;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    margin-top: 1rem;
 }
 
 .leer-mas:hover {
