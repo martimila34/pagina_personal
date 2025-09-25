@@ -8,3 +8,42 @@ h1 {
     color: navy;
     font-size: 40px;
 }
+/* ESTILOS DEL BLOG */
+#blog {
+    background: #f8f9fa;
+    padding: 4rem 2rem;
+}
+
+.entradas-blog {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.entrada {
+    background: white;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.entrada h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.fecha {
+    color: #7f8c8d;
+    font-size: 0.9em;
+    margin-bottom: 1rem;
+}
+
+.leer-mas {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.leer-mas:hover {
+    text-decoration: underline;
+}
